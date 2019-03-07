@@ -1,0 +1,1816 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 8,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000b",
+            "src_view_id": "output0"
+        },
+        "link103": {
+            "dst_id": "11111111-1111-1111-1111-00000000000d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output0"
+        },
+        "link105": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000a",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output0"
+        },
+        "link107": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output0"
+        },
+        "link108": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "metodija.jadroski@wowinc.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000001_input0": {
+                "label": {
+                    "value": "ZipFile Write - input0"
+                },
+                "view_type": {
+                    "value": "binary"
+                }
+            },
+            "11111111-1111-1111-1111-00000000000b_input0": {
+                "label": {
+                    "value": "Map Job and Budget to Import to NS - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-00000000000c_input0": {
+                "label": {
+                    "value": "Mapper - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000000_output0": {
+                "label": {
+                    "value": "JSON Generator - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_output0": {
+                "label": {
+                    "value": "ServiceNow Query - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000005_output0": {
+                "label": {
+                    "value": "ServiceNow Query - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000006_output0": {
+                "label": {
+                    "value": "File Reader - output0"
+                },
+                "view_type": {
+                    "value": "binary"
+                }
+            },
+            "11111111-1111-1111-1111-00000000000d_output101": {
+                "label": {
+                    "value": "File Writer - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 3,
+                "input": {},
+                "output": {},
+                "rot_int": 180,
+                "rot_tail_int": 180
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 3,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 8,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 4,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000b": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 1,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000c": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            },
+            "11111111-1111-1111-1111-00000000000d": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "input": {},
+                "output": {},
+                "rot_int": 0,
+                "rot_tail_int": 0
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "[{\"soapenv:Body\":{\"@xmlns:soapenv\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"@xmlns:xsd\":\"http://www.w3.org/2001/XMLSchema\",\"@xmlns:xsi\":\"http://www.w3.org/2001/XMLSchema-instance\",\"addResponse\":{\"@xmlns\":\"urn:messages_2015_1.platform.webservices.netsuite.com\",\"writeResponse\":{\"platformCore:status\":{\"@xmlns:platformCore\":\"urn:core_2015_1.platform.webservices.netsuite.com\",\"@isSuccess\":\"true\"},\"baseRef\":{\"@xmlns:platformCore\":\"urn:core_2015_1.platform.webservices.netsuite.com\",\"@internalId\":\"1703\",\"@typeId\":\"299\",\"@xsi:type\":\"platformCore:CustomRecordRef\"}}}},\"original\":{\"jobCount\":1,\"budgetCount\":1,\"input2_jobCount\":1,\"input2_budgetCount\":1,\"input2_input2_jobCount\":1,\"input2_input2_budgetCount\":1,\"input2_input2_input2_jobCount\":1,\"input2_input2_input2_budgetCount\":1,\"input2_input2_input2_input2_jobCount\":1,\"input2_input2_input2_input2_budgetCount\":1,\"original\":{\"job\":{\"Project Internal ID\":\"245\",\"Project Name\":\"25 - Edge-outs\",\"Name\":\"WOW_TESTJOB_004\",\"Job Number (Custom field)\":\"2017OH- CL50185\",\"Type of Job (Custom field)\":\"Commercial\",\"Start Date\":\"05/04/2017\",\"Subsidiary\":\"25\",\"recordId\":1},\"jobRecord\":{\"job\":{\"name\":\"WOW_TESTJOB_004\",\"jobNumber\":\"2017OH- CL50185\",\"typeOfJob\":{\"internalId\":\"1314\",\"scriptId\":\"custevent_wow_job_type\",\"type\":\"SelectCustomFieldRef\",\"value\":{\"typeId\":\"148\",\"name\":\"Commercial\"}},\"company\":{\"internalId\":\"250\",\"name\":\"25 - Edge-outs\"}}},\"jobInternalId\":\"250\",\"jobTypeId\":\"11\"},\"input1_original\":{\"budget\":{\"Name\":\"WOW_TESTJOB_004\",\"Job Number (PART ID)\":\"2017OH- CL50185\",\"Project Name\":\"25 - Edge-outs\",\"Walkout & Design Budget\":\"\",\"Material Costs Budget\":\"\",\"Contract Labor Budget\":\"700\",\"Make Ready Budget\":\"\",\"Headend Equipment Budget\":\"\",\"Commercial CPE Costs Budget\":\"\",\"ILEC - Aerial Cable - ILEC Copper Markets Budget\":\"\",\"ILEC - Buried Cable Budget\":\"\",\"ILEC - Customer Inside Wiring Budget\":\"\",\"ILEC - Plant Distribution - Poles Budget\":\"\",\"ILEC - Underground Cable Budget\":\"\",\"ILEC - Aerial Wire Budget\":\"\",\"ILEC - Circuit Equipment Budget\":\"\",\"ILEC - Conduit Systems Budget\":\"\",\"ILEC - Non-digital Switching Budget\":\"\",\"ILEC - Other Terminal Equipment Budget\":\"\",\"recordId\":1}},\"OriginalBudgetCount\":1,\"OriginalJobCount\":1,\"soapenv:Body\":{\"@xmlns:soapenv\":\"http://schemas.xmlsoap.org/soap/envelope/\",\"@xmlns:xsd\":\"http://www.w3.org/2001/XMLSchema\",\"@xmlns:xsi\":\"http://www.w3.org/2001/XMLSchema-instance\",\"searchResponse\":{\"@xmlns\":\"urn:messages_2016_2.platform.webservices.netsuite.com\",\"platformCore:searchResult\":{\"@xmlns:platformCore\":\"urn:core_2016_2.platform.webservices.netsuite.com\",\"platformCore:status\":{\"@isSuccess\":\"true\"},\"platformCore:totalRecords\":\"1\",\"platformCore:pageSize\":\"1000\",\"platformCore:totalPages\":\"1\",\"platformCore:pageIndex\":\"1\",\"platformCore:searchId\":\"WEBSERVICES_557599_050820174031663461829950428_8b53de4edc9f1\",\"platformCore:recordList\":{\"platformCore:record\":{\"@xmlns:setupCustom\":\"urn:customization_2016_2.setup.webservices.netsuite.com\",\"@internalId\":\"148\",\"@xsi:type\":\"setupCustom:CustomList\",\"setupCustom:name\":\"Job Type\",\"setupCustom:owner\":{\"@internalId\":\"410\",\"platformCore:name\":\"Misha Sturno\"},\"setupCustom:isOrdered\":\"true\",\"setupCustom:scriptId\":\"customlist148\",\"setupCustom:isInactive\":\"false\",\"setupCustom:customValueList\":{\"setupCustom:customValue\":[{\"setupCustom:value\":\"CIU\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"1\"},{\"setupCustom:value\":\"CIU-I\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"2\"},{\"setupCustom:value\":\"CIU-R\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"3\"},{\"setupCustom:value\":\"CIU-W\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"4\"},{\"setupCustom:value\":\"CIU-WA\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"5\"},{\"setupCustom:value\":\"EDGE OUT\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"6\"},{\"setupCustom:value\":\"MDU\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"7\"},{\"setupCustom:value\":\"REBUILD/UPGRADE  \",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"8\"},{\"setupCustom:value\":\"MAINT - CABLE CUT\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"9\"},{\"setupCustom:value\":\"MAINT - RELOCATE\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"10\"},{\"setupCustom:value\":\"MAINT - OTHER\",\"setupCustom:isInactive\":\"false\",\"setupCustom:valueId\":\"11\"}]}}}}}},\"jobInternalId\":\"250\",\"jobRecord\":{\"job\":{\"name\":\"WOW_TESTJOB_004\",\"jobNumber\":\"2017OH- CL50185\",\"typeOfJob\":{\"internalId\":\"1314\",\"scriptId\":\"custevent_wow_job_type\",\"type\":\"SelectCustomFieldRef\",\"value\":{\"typeId\":\"148\",\"name\":\"Commercial\"}},\"company\":{\"internalId\":\"250\",\"name\":\"25 - Edge-outs\"}}},\"groupBy\":\"1\",\"jobTypeIndex\":-1,\"jobTypeId\":\"11\",\"record\":{\"customFieldList\":{\"customField\":[{\"internalId\":\"2514\",\"scriptId\":\"custrecord_partid\",\"type\":\"StringCustomFieldRef\",\"value\":\"2017OH- CL50185\"},{\"internalId\":\"2516\",\"scriptId\":\"custrecord_jobtype\",\"type\":\"SelectCustomFieldRef\",\"value\":{\"internalId\":\"11\",\"typeId\":\"148\",\"name\":\"Commercial\"}},{\"internalId\":\"2520\",\"scriptId\":\"custrecord_project\",\"type\":\"SelectCustomFieldRef\",\"value\":{\"internalId\":\"250\",\"typeId\":\"275\",\"name\":\"25 - Edge-outs\"}},{\"internalId\":\"2515\",\"scriptId\":\"custrecord_jobstartdate\",\"type\":\"ns3:DateCustomFieldRef\",\"value\":\"2017-05-04T00:00:00.000\"}]},\"recType\":\"299\",\"recordType_0\":\"ns3:StringCustomFieldRef\",\"recordType_1\":\"ns3:SelectCustomFieldRef\",\"recordType_2\":\"ns3:SelectCustomFieldRef\",\"name\":\"WOW_TESTJOB_004\"},\"Soap_Execute_Import_Job_Passport_email\":\"NetSuite@wowinc.com\",\"Soap_Execute_Import_Job_Passport_password\":\"Wow@cable\",\"Soap_Execute_Import_Job_Passport_account\":\"557599\"}}]"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-binary-zip",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ZipFile Write"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "FileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-netsuite-update",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "NetSuite Update1"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "customFields": {
+                        "value": []
+                    },
+                    "customRecordType": {
+                        "expression": false,
+                        "value": "WOW Job. (299)"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "maxRequests": {
+                        "value": 3
+                    },
+                    "retryInterval": {
+                        "value": 2
+                    },
+                    "timeout": {
+                        "value": 0
+                    },
+                    "type": {
+                        "value": "CustomRecord"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-servicenow-servicenowquery",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ServiceNow Query"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "allowEmptyResult": {
+                        "value": false
+                    },
+                    "apiType": {
+                        "value": "default"
+                    },
+                    "displayValue": {
+                        "value": "true"
+                    },
+                    "displayVariables": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "sysFields": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "sysQuery": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "u_category"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-servicenow-servicenowquery",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ServiceNow Query"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "allowEmptyResult": {
+                        "value": false
+                    },
+                    "apiType": {
+                        "value": "default"
+                    },
+                    "displayValue": {
+                        "value": "true"
+                    },
+                    "displayVariables": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "sysFields": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "sysQuery": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "u_category"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-servicenow-servicenowquery",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "ServiceNow Query"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "allowEmptyResult": {
+                        "value": false
+                    },
+                    "apiType": {
+                        "value": "default"
+                    },
+                    "displayValue": {
+                        "value": "true"
+                    },
+                    "displayVariables": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "sysFields": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "sysQuery": {
+                        "expression": false,
+                        "value": "number=INC0294372"
+                    },
+                    "tableName": {
+                        "expression": false,
+                        "value": "incident"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": "TEOCO_GS731_20171010_161616.csv"
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "expression": false,
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "servicenowcategories.json"
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-binary-compress",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Compress"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "scheme": {
+                        "value": "GZIP"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-snaps-transform-jsonformatter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Formatter"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "contentPath": {
+                        "value": "$"
+                    },
+                    "formatSingleDocument": {
+                        "value": false
+                    },
+                    "header": {
+                        "value": [
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": ""
+                                }
+                            }
+                        ]
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "jsonLines": {
+                        "value": false
+                    },
+                    "prettyPrint": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-transform-csvformatter",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "CSV Formatter"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "charset": {
+                        "value": "UTF-8"
+                    },
+                    "delimiter": {
+                        "value": ","
+                    },
+                    "ignoreEmptyStream": {
+                        "value": false
+                    },
+                    "newlineCharacter": {
+                        "value": "LF"
+                    },
+                    "quoteCharacter": {
+                        "value": "\""
+                    },
+                    "quoteMode": {
+                        "value": "ALL"
+                    },
+                    "useDefinedHeader": {
+                        "value": false
+                    },
+                    "writeHeader": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000b": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000b",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Map Job and Budget to Import to NS"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_contract_labor_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[0].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_contract_labor_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[0].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_contract_labor_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[0].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Contract Labor Budget'].length == 0 ? \"0\" : $original.input1_original.budget['Contract Labor Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[0].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_headend_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[1].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_headend_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[1].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_headend_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[1].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Headend Equipment Budget'].length == 0 ? \"0\" : $original.input1_original.budget['Headend Equipment Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[1].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_commercial_CPE_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[2].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_commercial_CPE_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[2].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_commercial_CPE_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[2].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Commercial CPE Costs Budget'].length == 0 ? \"0\" :$original.input1_original.budget['Commercial CPE Costs Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[2].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Aerial_Cable_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[3].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Aerial_Cable_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[3].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Aerial_Cable_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[3].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Aerial Cable - ILEC Copper Markets Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Aerial Cable - ILEC Copper Markets Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[3].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_make_ready_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[4].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_make_ready_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[4].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_make_ready_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[4].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Make Ready Budget'].length == 0 ? \"0\" :$original.input1_original.budget['Make Ready Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[4].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_material_cost_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[5].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_material_cost_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[5].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_material_cost_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[5].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Material Costs Budget'].length == 0 ? \"0\" :$original.input1_original.budget['Material Costs Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[5].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Other_Terminal_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[6].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Other_Terminal_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[6].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Other_Terminal_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[6].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Other Terminal Equipment Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Other Terminal Equipment Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[6].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_NonDigital_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[7].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_NonDigital_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[7].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Aerial_Cable_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[7].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Non-digital Switching Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Non-digital Switching Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[7].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_AerialWire_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[8].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_AerialWire_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[8].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Aerial_Cable_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[8].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Aerial Wire Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Aerial Wire Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[8].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Underground_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[9].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Underground_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[9].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Underground_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[9].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Underground Cable Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Underground Cable Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[9].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Conduit_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[10].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Conduit_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[10].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Conduit_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[10].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Conduit Systems Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Conduit Systems Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[10].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Circuit_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[11].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Circuit_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[11].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Circuit_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[11].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Circuit Equipment Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Circuit Equipment Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[11].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Plant_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[12].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Plant_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[12].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Plant_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[12].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Plant Distribution - Poles Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Plant Distribution - Poles Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[12].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_walkout_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[13].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_walkout_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[13].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_walkout_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[13].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['Walkout & Design Budget'].length == 0 ? \"0\" :$original.input1_original.budget['Walkout & Design Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[13].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_CustomerInside_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[14].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_CustomerInside_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[14].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_CustomerInside_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[14].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Customer Inside Wiring Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Customer Inside Wiring Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[14].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Burried_internalId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[15].internalId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Burried_scriptId"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[15].scriptId"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_ILEC_Burried_type"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[15].type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.input1_original.budget['ILEC - Buried Cable Budget'].length == 0 ? \"0\" :$original.input1_original.budget['ILEC - Buried Cable Budget']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.customFieldList.customField[15].value"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_Job_Import_RecordType_0"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.recordType_0"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_Job_Import_RecordType_1"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.recordType_1"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_Job_Import_RecordType_2"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.recordType_2"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original['soapenv:Body'].searchResponse['platformCore:searchResult']['platformCore:recordList']['platformCore:record']['@internalId']"
+                                        },
+                                        "targetPath": {
+                                            "value": "$record.internalId"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000c": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000c",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "1"
+                                        },
+                                        "targetPath": {
+                                            "value": "$testg"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "2"
+                                        },
+                                        "targetPath": {
+                                            "value": "$tetge"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": false,
+                                            "value": "3"
+                                        },
+                                        "targetPath": {
+                                            "value": "$aaa"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000d": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-00000000000d",
+            "property_map": {
+                "account": {},
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Writer"
+                    },
+                    "notes": {
+                        "value": null
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": false,
+                        "value": "vlatce.gz"
+                    },
+                    "validate": {
+                        "value": true
+                    },
+                    "writeEmptyFile": {
+                        "value": true
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        }
+    }
+}
